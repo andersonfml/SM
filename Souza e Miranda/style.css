@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-color: #FFA500;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav button {
+  background-color: #FFA500;
+  color: white;
+  border: none;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #e69500;
+}
+
+main {
+  padding: 20px;
+}
+
+.produtos, .especial {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.produto {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.especial {
+  border-top: 3px solid #FFA500;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+.contato {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff8f0;
+  border-top: 2px solid #FFA500;
+}
+
+.botao-whatsapp {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 15px 25px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.botao-whatsapp:hover {
+  background-color: #1ebe57;
+}
